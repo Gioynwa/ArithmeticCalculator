@@ -23,4 +23,4 @@ __Java program that can solve any complex arithmetic expression which may includ
 4. Calculate the result
 
 ## Additional Features
-This program uses <a href="https://www.graphviz.org/" target="\_blank">graphviz</a>
+This program uses [graphviz](https://www.graphviz.org/)

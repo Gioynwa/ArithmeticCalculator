@@ -1,1 +1,1 @@
-# Arithmetic-Calculator
+# Arithmetic Calculator

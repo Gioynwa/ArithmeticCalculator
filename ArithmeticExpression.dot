@@ -1,0 +1,55 @@
+digraph ExpressionTree {
+	fontcolor="navy";
+	fontsize="20";
+	labelloc="t";
+	label="Arithmetic Expression"
+	node0 [label="+", shape=circle, color=black]
+	node1 [label="5.0", shape=circle, color=black]
+	node0 -> node1
+	node3 [label="+", shape=circle, color=black]
+	node0 -> node3
+	node5 [label="*", shape=circle, color=black]
+	node3 -> node5
+	node7 [label="+", shape=circle, color=black]
+	node5 -> node7
+	node9 [label="*", shape=circle, color=black]
+	node7 -> node9
+	node11 [label="+", shape=circle, color=black]
+	node9 -> node11
+	node13 [label="3.3", shape=circle, color=black]
+	node11 -> node13
+	node15 [label="6.6", shape=circle, color=black]
+	node11 -> node15
+	node17 [label="9.2", shape=circle, color=black]
+	node9 -> node17
+	node19 [label="12.546", shape=circle, color=black]
+	node7 -> node19
+	node21 [label="2.323", shape=circle, color=black]
+	node5 -> node21
+	node23 [label="+", shape=circle, color=black]
+	node3 -> node23
+	node25 [label="-", shape=circle, color=black]
+	node23 -> node25
+	node27 [label="*", shape=circle, color=black]
+	node25 -> node27
+	node29 [label="+", shape=circle, color=black]
+	node27 -> node29
+	node31 [label="33.3", shape=circle, color=black]
+	node29 -> node31
+	node33 [label="2342.1", shape=circle, color=black]
+	node29 -> node33
+	node35 [label="55.555", shape=circle, color=black]
+	node27 -> node35
+	node37 [label="10000.009", shape=circle, color=black]
+	node25 -> node37
+	node39 [label="*", shape=circle, color=black]
+	node23 -> node39
+	node41 [label="11.334", shape=circle, color=black]
+	node39 -> node41
+	node43 [label="^", shape=circle, color=black]
+	node39 -> node43
+	node45 [label="2.3", shape=circle, color=black]
+	node43 -> node45
+	node47 [label="3.5", shape=circle, color=black]
+	node43 -> node47
+}

@@ -2,12 +2,13 @@
 
 
 ## Description
-Java program that can solve any complex arithmetic expression which may include:
+__Java program that can solve any complex arithmetic expression which may include:__
 1. Parenthesis
-2. Operators
+2. Operators:
 	* \+ (addition)
 	* \- (subtraction)
 	* x or * (multiplication)
 	* / (division)
 	* ^ (power)
-2.
+3. Positive Numbers (Integers or Floating Point)
+4. Whitespace characters ([ \\t])

@@ -58,12 +58,12 @@ public class Calculator{
 
         /*code for dot file creation and compilation*/
         try {
-            PrintWriter pfile = new PrintWriter("ArithmeticExpression.dot");
+            PrintWriter pfile = new PrintWriter("./output/ArithmeticExpression.dot");
             pfile.println(et.toDotString(et));
             pfile.close();
             System.out.println("PRINT DOT FILE OK!");
 
-            Process p = Runtime.getRuntime().exec("dot -Tpng ArithmeticExpression.dot " +"-o ArithmeticExpression.png");
+            Process p = Runtime.getRuntime().exec("dot -Tpng ./output/ArithmeticExpression.dot " +"-o ./output/ArithmeticExpression.png");
             p.waitFor();
             System.out.println("PRINT PNG FILE OK!");
         }

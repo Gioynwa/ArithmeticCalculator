@@ -18,3 +18,4 @@ __Java program that can solve any complex arithmetic expression which may includ
 	* All parenthesis are closed
 	* No closed parenthesis symbol without an opening in advance
 	* No other characters included except from those referenced in description
+	* There are no two operators next to each other (eg. \+\+, \-\-, x\-, /\+, etc.)

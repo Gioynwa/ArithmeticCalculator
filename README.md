@@ -11,4 +11,4 @@ __Java program that can solve any complex arithmetic expression which may includ
 	* / (division)
 	* ^ (power)
 3. Positive Numbers (Integers or Floating Point)
-4. Whitespace characters ([ \\t])
+4. Whitespace characters ([(space), \\t])

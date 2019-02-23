@@ -21,3 +21,6 @@ __Java program that can solve any complex arithmetic expression which may includ
 	* There are no two operators next to each other (ex. \+\+, \-\-, x\-, /\+, etc.)
 3. Construct a binary expression tree that corresponds to the given expression
 4. Calculate the result
+
+## Additional Features
+This program uses <a href="https://www.graphviz.org/">graphviz</a>

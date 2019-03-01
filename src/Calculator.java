@@ -5,7 +5,7 @@ public class Calculator{
 
     public static void main(String[] args) {
 
-        String expression
+        String expression;
         String accepted = "0123456789+-/*x^.()\t ";
         int counter = 0, counter2 = 0;
 

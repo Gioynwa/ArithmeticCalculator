@@ -32,6 +32,6 @@ user@pc:~$ ant
 ```
 To run the program type:
 ```console
-user@pc:~$ java -jar dist\\ArithmeticCalculator-{TIMESTAMP}.jar
+user@pc:~$ java -jar dist\ArithmeticCalculator-{TIMESTAMP}.jar
 ```
 {TIMESTAMP} is a variable depending on the compilation date.

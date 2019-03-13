@@ -23,4 +23,4 @@ __Java program that can solve any complex arithmetic expression which may includ
 4. Calculate the result
 
 ## Additional Features
-This program uses [graphviz](https://www.graphviz.org/)
+This program uses [graphviz](https://www.graphviz.org/) to print the tree diagram in PNG format.

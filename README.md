@@ -25,6 +25,8 @@ __Java program that can solve any complex arithmetic expression which may includ
 ## Additional Features
 This program uses [graphviz](https://www.graphviz.org/) to print the tree diagram in PNG format.
 
+## Compile
+To compile just use the command ant (requires [Apache Ant](https://ant.apache.org/) to be installed).
 ```console
-~$ ant
+user@pc:~$ ant
 ```
